@@ -24,7 +24,7 @@
             }
 
 
-            bool isReachable = VerifyConnectionURL("http://xxx.azurewebsites.net/");
+            bool isReachable = VerifyConnectionURL("http://notesplc.azurewebsites.net/");
             if (!isReachable)
             {
                 return new Response
